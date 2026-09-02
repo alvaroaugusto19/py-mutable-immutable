@@ -16,4 +16,14 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-# write your code here
+ls1 = [lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins]
+tipos_mutaveis = (list, dict, set)
+sorted_variables = {
+    "mutable": [],
+    "immutable": []
+}
+for i in ls1:
+    if isinstance(i, tipos_mutaveis):
+        sorted_variables["mutable"].append(i)
+    else:
+        sorted_variables["immutable"].append(i)
