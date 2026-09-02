@@ -22,7 +22,7 @@ ls1 = [
     name,
     my_favourite_films,
     profile_info,
-    marks, 
+    marks,
     collection_of_coins
 ]
 tipos_mutaveis = (list, dict, set)
