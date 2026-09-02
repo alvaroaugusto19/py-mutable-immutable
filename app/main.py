@@ -15,7 +15,16 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
-ls1 = [lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins]
+ls1 = [
+    lucky_number,
+    pi,
+    one_is_a_prime_number,
+    name,
+    my_favourite_films,
+    profile_info,
+    marks, 
+    collection_of_coins
+]
 tipos_mutaveis = (list, dict, set)
 sorted_variables = {
     "mutable": [],
